@@ -40,22 +40,26 @@ The analysis involves the following steps:
 Regression-Methods-Time-Series-Analysis/
 
 `│`
+
 `├── ArtificialData/`
+
 `│ ├── DS-5-1-GAP-0-1-N-0_v2.dat # Ground truth data (noise = 0)`
+
 `│ ├── DS-5-1-GAP-1-1-N-1_v2.dat # Low noise level (0.106%)`
+
 `│ └── DS-5-1-GAP-5-1-N-3_v2.dat # Higher noise level (0.466%)`
 
-│
+`│`
 
-├── src/ # Python scripts for regression methods
+`├── src/ # Python scripts for regression methods`
 
-│
+`│`
 
-├── results/ # Output: MSE, bias, variance metrics
+`├── results/ # Output: MSE, bias, variance metrics`
 
-│
+`│`
 
-└── README.md
+`└── README.md`
 
 ---
 ## Goal
