@@ -39,26 +39,16 @@ The analysis involves the following steps:
 ## Repository Structure
 Regression-Methods-Time-Series-Analysis/
 
-`│`
-
-`├── ArtificialData/`
-
-`│ ├── DS-5-1-GAP-0-1-N-0_v2.dat # Ground truth data (noise = 0)`
-
-`│ ├── DS-5-1-GAP-1-1-N-1_v2.dat # Low noise level (0.106%)`
-
-`│ └── DS-5-1-GAP-5-1-N-3_v2.dat # Higher noise level (0.466%)`
-
-`│`
-
-`├── src/ # Python scripts for regression methods`
-
-`│`
-
-`├── results/ # Output: MSE, bias, variance metrics`
-
-`│`
-
+`│`  
+`├── ArtificialData/`  
+`│ ├── DS-5-1-GAP-0-1-N-0_v2.dat # Ground truth data (noise = 0)`  
+`│ ├── DS-5-1-GAP-1-1-N-1_v2.dat # Low noise level (0.106%)`  
+`│ └── DS-5-1-GAP-5-1-N-3_v2.dat # Higher noise level (0.466%)`  
+`│`  
+`├── src/ # Python scripts for regression methods`  
+`│`  
+`├── results/ # Output: MSE, bias, variance metrics`  
+`│`  
 `└── README.md`
 
 ---
@@ -69,17 +59,16 @@ This project serves as a benchmarking platform to understand how different regre
 ---
 
 ## Context and Reference
+This project uses datasets provided by Dr. Juan Carlos Cuevas-Tello and is inspired by the methodology described in the following work
 
-The regression techniques are inspired by the work presented in:
-
-> Juan C. Cuevas-Tello, Peter Tio, Somak Raychaudhury, Xin Yao, and Markus Harva.  
-> *Uncovering delayed patterns in noisy and irregularly sampled time series: An astronomy application.*  
-> Pattern Recognition, 43(3):1165 – 1179, 2010.
+> J. C. Cuevas-Tello, P. Tino, S. Raychaudhury, X. Yao, and M. Harva,
+> "Uncovering delayed patterns in noisy and irregularly sampled time series: an astronomy application,"
+> arXiv preprint arXiv:0908.3706, 2009. [Online]. Available: https://doi.org/10.48550/arXiv.0908.3706
 
 This study explores time delay estimation in gravitationally lensed quasar signals using kernel-based methods and evolutionary optimization.
 
-**Dataset source:**  
-[http://turing.ing.uaslp.mx/~jcctello/time-delay/DS-5/](http://turing.ing.uaslp.mx/~jcctello/time-delay/DS-5/)
+**Acknowledgments**
+I would like to thank Dr. Juan Carlos Cuevas-Tello for providing the datasets used in this project and for his guidance on time delay estimation techniques in noisy and irregular time series.
 
 ---
 
