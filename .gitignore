@@ -11,3 +11,6 @@ results/
 # Environments
 .env/
 venv/
+
+#Datasets
+ArtificialData/
