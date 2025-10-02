@@ -37,8 +37,8 @@ The analysis involves the following steps:
 
 ---
 ## Repository Structure
-Regression-Methods-Time-Series-Analysis/
 
+`Regression-Methods-Time-Series-Analysis/`  
 `│`  
 `├── ArtificialData/`  
 `│ ├── DS-5-1-GAP-0-1-N-0_v2.dat # Ground truth data (noise = 0)`  
@@ -88,10 +88,9 @@ I would like to thank Dr. Juan Carlos Cuevas-Tello for providing the datasets us
 
 ## Author
 **Patricia Sarahi Jimenez-Leura**  
-Last updated: XXX 2025
+Last updated: October 1, 2025
 
 ---
 
 ## License
 This project is open for academic and research purposes. Please cite the original paper if used in publications.
-
